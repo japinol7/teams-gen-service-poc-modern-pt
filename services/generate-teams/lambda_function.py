@@ -61,9 +61,7 @@ def lambda_handler(event, context):
         }
 
     body_json = json.dumps(body)
-    s3.upload_teams(
-        resource_name=config_parser['teams_gen_file_teams'],
-        body=body_json)
+    s3.upload_teams(resource_name=config_parser['teams_gen_file_teams'], body=body_json)
     log.info(LOG_END_SERVICE_MSG)
     return {
         'statusCode': 200,
