@@ -32,4 +32,5 @@ jobs:
           pip install pytest pytest-mock
       - name: Test with pytest
         run: |
+          chmod +x ./services/run_tests_all_services.sh
           ./services/run_tests_all_services.sh
