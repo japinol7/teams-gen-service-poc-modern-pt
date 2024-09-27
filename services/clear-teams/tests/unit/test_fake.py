@@ -1,3 +1,3 @@
 def test_fake():
-    res = 'test_fake_error'
+    res = 'test_fake'
     assert res == 'test_fake'
