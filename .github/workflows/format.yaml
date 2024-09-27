@@ -32,11 +32,4 @@ jobs:
           pip install pytest pytest-mock
       - name: Test with pytest
         run: |
-          python -m pytest services/add-contestants/tests
-          python -m pytest services/clear-contestants/tests
-          python -m pytest services/clear-teams/tests
-          python -m pytest services/generate-teams/tests
-          python -m pytest services/list-contestants/tests
-          python -m pytest services/list-teams/tests
-          python -m pytest services/remove-contestants/tests
-          python -m pytest services/reset-teams-generator/tests
+          ./services/run_tests_all_services.sh
