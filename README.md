@@ -1,5 +1,5 @@
-Teams Generator Services - POC Python tools version
-===================================================
+Teams Generator Services - POC modern Python tools v.
+=====================================================
 
 Some microservices related to the generation of RPG teams.
 This project uses AWS S3 and System Params. <br /> <br />
